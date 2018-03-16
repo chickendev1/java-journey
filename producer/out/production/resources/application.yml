@@ -12,3 +12,7 @@ spring:
       port: 27017
 server:
   port: 8081
+kafka:
+  producer:
+    bootstrap: localhost:9092
+    topic: workunits
