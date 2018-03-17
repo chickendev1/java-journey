@@ -29,3 +29,7 @@ Caused by: java.lang.IllegalStateException: No type information in headers and n
 
 2018-03-17 10:42:40.989 ERROR 27866 --- [ntainer#0-0-C-1] essageListenerContainer$ListenerConsumer : Container exception
 - This error will be verified in the next commit. In case of fetching a message from kafka, but It can not success when consumer continute to request to kafka in my project. I think that It may be root cause for stoping kafka.
+
+# Reference
+[1]. https://github.com/bijukunjummen/sample-spring-kafka-producer-consumer
+[2]. Neha Narkhede, Gwen shapira, Todd Palino, "Kafka the definitive guiede real-time data and stream processing at scale", Oreilly, 2017
