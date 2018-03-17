@@ -9,6 +9,7 @@
 - Before running this project. You must access to ./producer and run docker-compose up -d from command line
 - Setting brew package on mac os and using brew cask install redis | zookeeper | kafka | mongodb etc for installing directly.
 - brew services restart "services name" to start an service on mac os. For example: bew services restart kafka | zookeeper | redis | mongodb | mysql
+- brew services list to check a service if it is runing
 # Error
 - when publishing a message to kafka. Consummer side can not get message with following error
 org.apache.kafka.common.errors.SerializationException: Error deserializing key/value for partition workunits-0 at offset 1. If needed, please seek past the record to continue consumption.
